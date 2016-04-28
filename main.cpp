@@ -26,7 +26,8 @@ void reshape(int w, int h)
     // "limpiamos" esta con la matriz identidad.
     glLoadIdentity();
     // Usamos proyeccion ortogonal
-    glOrtho (-20, 20, -20*(GLfloat)h/(GLfloat)w,20*(GLfloat)h/(GLfloat)w, -20, 20);
+    //multiplicando por h y w para obtener una esfera circular
+ glOrtho (-20, 20, -20*(GLfloat)h/(GLfloat)w,20*(GLfloat)h/(GLfloat)w, -20, 20);
     // Activamos la matriz de modelado/visionado.
     glMatrixMode(GL_MODELVIEW);
     // "Limpiamos" la matriz
