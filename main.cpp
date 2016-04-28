@@ -46,12 +46,6 @@ void display(void)
     glMatrixMode( GL_MODELVIEW_MATRIX );
     glLoadIdentity();
 
-    // Rotacion de 20 grados en torno al eje x
-    glRotated(20.0, 1.0, 0.0, 0.0);
-    // Rotacion de -30 grados en torno al eje y
-    glRotated(-30.0, 0.0, 1.0, 0.0);
-    // Dibujamos una "Tetera" y le aplico el material
-    glPushMatrix();
     //setMaterial
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
