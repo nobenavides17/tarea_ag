@@ -47,12 +47,8 @@ void display(void)
     glRotated(45,0.0,1.0,0.0);
     glRotated(45,0.0,0.0,1.0);
     glLoadIdentity();
-<<<<<<< HEAD
     // Dibujamos una "Esfera" y le aplicamos el material
     glPushMatrix();
-=======
-
->>>>>>> 3e93db9243b271076fdf11c1894c807a864baa14
     //setMaterial
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
@@ -62,7 +58,7 @@ void display(void)
     glFlush();
 }
 
-// Termina la ejecucion del programa cuando se presiona ESC
+//Funcion de control de teclado
 void keyboard(unsigned char key, int x, int y)
 {   //Inicio de casos para la seleccion de materiales por teclas
     switch (key)
@@ -138,6 +134,7 @@ void keyboard(unsigned char key, int x, int y)
     }
     glutPostRedisplay();
 }
+//Funcion de deteccion de clic con el mouse
 void mouse(int button, int state, int x, int y)
     {
         int rx, ry;
