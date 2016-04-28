@@ -11,7 +11,6 @@ float shine[] ={32.0f};
 void init(void)
 {
     glClearColor(1.0,1.0,1.0,1.0);
-
     // Activamos la fuente de luz
     glEnable(GL_LIGHTING);
     glEnable(GL_LIGHT0);
@@ -27,7 +26,7 @@ void reshape(int w, int h)
     // "limpiamos" esta con la matriz identidad.
     glLoadIdentity();
     // Usamos proyeccion ortogonal
-    glOrtho (-300, 300, -300*(GLfloat)h/(GLfloat)w,350*(GLfloat)h/(GLfloat)w, -300, 300);
+    glOrtho (-20, 20, -20, 20, -20, 20);
     // Activamos la matriz de modelado/visionado.
     glMatrixMode(GL_MODELVIEW);
     // "Limpiamos" la matriz
@@ -44,20 +43,18 @@ void display(void)
     GLfloat light_position[] = { (int)((0.03076923076923076923076923076923 * (n_x + v_x)) - 10), (int)((0.03076923076923076923076923076923 * (n_y + v_y)) - 10) * -1, 1.0, 0.0 };
     glLightfv(GL_LIGHT0,GL_POSITION,light_position);
     glMatrixMode( GL_MODELVIEW_MATRIX );
+    glRotated(45,1.0,0.0,0.0);
+    glRotated(45,0.0,1.0,0.0);
+    glRotated(45,0.0,0.0,1.0);
     glLoadIdentity();
-
-    // Rotacion de 20 grados en torno al eje x
-    glRotated(20.0, 1.0, 0.0, 0.0);
-    // Rotacion de -30 grados en torno al eje y
-    glRotated(-30.0, 0.0, 1.0, 0.0);
-    // Dibujamos una "Tetera" y le aplico el material
+    // Dibujamos una "Esfera" y le aplicamos el material
     glPushMatrix();
     //setMaterial
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
     glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
     glMaterialfv(GL_FRONT, GL_SHININESS, shine);
-    glutSolidSphere(90.0,100.0,100.0);
+    glutSolidSphere(10.0,100.0,100.0);
     glFlush();
 }
 

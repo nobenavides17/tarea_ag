@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/benavides/Escritorio/tarea/backup1/main.cpp
+/home/benavides/Escritorio/tarea/tarea_ag/main.cpp
 GL/gl.h
 -
 GL/glut.h

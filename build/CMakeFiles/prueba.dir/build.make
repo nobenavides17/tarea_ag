@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benavides/Escritorio/tarea/backup1
+CMAKE_SOURCE_DIR = /home/benavides/Escritorio/tarea/tarea_ag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benavides/Escritorio/tarea/backup1/build
+CMAKE_BINARY_DIR = /home/benavides/Escritorio/tarea/tarea_ag/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/prueba.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/prueba.dir/flags.make
 
 CMakeFiles/prueba.dir/main.cpp.o: CMakeFiles/prueba.dir/flags.make
 CMakeFiles/prueba.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/benavides/Escritorio/tarea/backup1/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/benavides/Escritorio/tarea/tarea_ag/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/prueba.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/prueba.dir/main.cpp.o -c /home/benavides/Escritorio/tarea/backup1/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/prueba.dir/main.cpp.o -c /home/benavides/Escritorio/tarea/tarea_ag/main.cpp
 
 CMakeFiles/prueba.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prueba.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/benavides/Escritorio/tarea/backup1/main.cpp > CMakeFiles/prueba.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/benavides/Escritorio/tarea/tarea_ag/main.cpp > CMakeFiles/prueba.dir/main.cpp.i
 
 CMakeFiles/prueba.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prueba.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/benavides/Escritorio/tarea/backup1/main.cpp -o CMakeFiles/prueba.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/benavides/Escritorio/tarea/tarea_ag/main.cpp -o CMakeFiles/prueba.dir/main.cpp.s
 
 CMakeFiles/prueba.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/prueba.dir/main.cpp.o.requires
@@ -106,6 +106,6 @@ CMakeFiles/prueba.dir/clean:
 .PHONY : CMakeFiles/prueba.dir/clean
 
 CMakeFiles/prueba.dir/depend:
-	cd /home/benavides/Escritorio/tarea/backup1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benavides/Escritorio/tarea/backup1 /home/benavides/Escritorio/tarea/backup1 /home/benavides/Escritorio/tarea/backup1/build /home/benavides/Escritorio/tarea/backup1/build /home/benavides/Escritorio/tarea/backup1/build/CMakeFiles/prueba.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/benavides/Escritorio/tarea/tarea_ag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benavides/Escritorio/tarea/tarea_ag /home/benavides/Escritorio/tarea/tarea_ag /home/benavides/Escritorio/tarea/tarea_ag/build /home/benavides/Escritorio/tarea/tarea_ag/build /home/benavides/Escritorio/tarea/tarea_ag/build/CMakeFiles/prueba.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/prueba.dir/depend
 

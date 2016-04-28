@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benavides/Escritorio/tarea/backup1/main.cpp" "/home/benavides/Escritorio/tarea/backup1/build/CMakeFiles/prueba.dir/main.cpp.o"
+  "/home/benavides/Escritorio/tarea/tarea_ag/main.cpp" "/home/benavides/Escritorio/tarea/tarea_ag/build/CMakeFiles/prueba.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

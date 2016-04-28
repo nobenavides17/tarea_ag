@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benavides/Escritorio/tarea/backup1
+CMAKE_SOURCE_DIR = /home/benavides/Escritorio/tarea/tarea_ag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benavides/Escritorio/tarea/backup1/build
+CMAKE_BINARY_DIR = /home/benavides/Escritorio/tarea/tarea_ag/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/prueba.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/benavides/Escritorio/tarea/backup1/build
 CMakeFiles/prueba.dir/all:
 	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/depend
 	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/benavides/Escritorio/tarea/backup1/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/benavides/Escritorio/tarea/tarea_ag/build/CMakeFiles  1
 	@echo "Built target prueba"
 .PHONY : CMakeFiles/prueba.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/prueba.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/prueba.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benavides/Escritorio/tarea/backup1/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benavides/Escritorio/tarea/tarea_ag/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prueba.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benavides/Escritorio/tarea/backup1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benavides/Escritorio/tarea/tarea_ag/build/CMakeFiles 0
 .PHONY : CMakeFiles/prueba.dir/rule
 
 # Convenience name for target.
