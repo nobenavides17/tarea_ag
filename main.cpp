@@ -47,8 +47,12 @@ void display(void)
     glRotated(45,0.0,1.0,0.0);
     glRotated(45,0.0,0.0,1.0);
     glLoadIdentity();
+<<<<<<< HEAD
     // Dibujamos una "Esfera" y le aplicamos el material
     glPushMatrix();
+=======
+
+>>>>>>> 3e93db9243b271076fdf11c1894c807a864baa14
     //setMaterial
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
