@@ -58,13 +58,14 @@ void display(void)
     glFlush();
 }
 
-//Funcion de control de teclado
+//Funcion de control de teclado 
 void keyboard(unsigned char key, int x, int y)
 {   //Inicio de casos para la seleccion de materiales por teclas
     switch (key)
     {
 	case 'C':
     case 'c':
+    //agregando colores
     mat_ambient[0] = 0.19125;
     mat_ambient[1] =0.0735;
     mat_ambient[2] =0.0225,1.0f ;
